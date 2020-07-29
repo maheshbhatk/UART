@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="uart_tb1_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="uart_tb1" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1000000001fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="324"></NameColumnWidth>
+      <ValueColumnWidth column_width="260"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/uart_tb1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb1/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb1/wr" type="logic">
+      <obj_property name="ElementShortName">wr</obj_property>
+      <obj_property name="ObjectShortName">wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb1/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb1/tx" type="logic">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb1/frame" type="array">
+      <obj_property name="ElementShortName">frame[7:0]</obj_property>
+      <obj_property name="ObjectShortName">frame[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb1/dut11/buad_rate" type="logic">
+      <obj_property name="ElementShortName">buad_rate</obj_property>
+      <obj_property name="ObjectShortName">buad_rate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb1/dut11/count" type="array">
+      <obj_property name="ElementShortName">count[2:0]</obj_property>
+      <obj_property name="ObjectShortName">count[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb1/dut11/D_frame" type="array">
+      <obj_property name="ElementShortName">D_frame[10:0]</obj_property>
+      <obj_property name="ObjectShortName">D_frame[10:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb1/dut11/tx_start" type="logic">
+      <obj_property name="ElementShortName">tx_start</obj_property>
+      <obj_property name="ObjectShortName">tx_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb1/dut12/d_frame" type="array">
+      <obj_property name="ElementShortName">d_frame[10:0]</obj_property>
+      <obj_property name="ObjectShortName">d_frame[10:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb1/dut12/rx_start" type="logic">
+      <obj_property name="ElementShortName">rx_start</obj_property>
+      <obj_property name="ObjectShortName">rx_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb1/dut12/tx" type="logic">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb1/dut12/count" type="array">
+      <obj_property name="ElementShortName">count[2:0]</obj_property>
+      <obj_property name="ObjectShortName">count[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb1/dut12/buad_rate" type="logic">
+      <obj_property name="ElementShortName">buad_rate</obj_property>
+      <obj_property name="ObjectShortName">buad_rate</obj_property>
+   </wvobject>
+</wave_config>
